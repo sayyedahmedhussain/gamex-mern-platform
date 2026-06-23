@@ -84,17 +84,6 @@ cd backend
 cp .env.example .env
 ```
 
-Edit `.env`:
-
-```env
-MONGO_URI=mongodb+srv://<user>:<pass>@<cluster>.mongodb.net/gamex?retryWrites=true&w=majority
-PORT=5000
-JWT_SECRET=<a long random string>
-JWT_EXPIRES_IN=7d
-ADMIN_USERNAME=admin
-ADMIN_EMAIL=admin@gamex.com
-ADMIN_PASSWORD=ChangeMe123!
-```
 
 ### 1c. Install dependencies
 
